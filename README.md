@@ -213,8 +213,8 @@ Here is a basic config sample with all REQUIRED fields:
     },
     "host_net_info" : [
       {
-        "lidar_ip"       : ["192.168.1.10","192.168.1.11","192.168.1.12", "192.168.1.13"],
-        "host_ip"        : "192.168.1.5",
+        "lidar_ip"       : ["192.168.1.102","192.168.1.11","192.168.1.12", "192.168.1.13"],
+        "host_ip"        : "192.158.1.8",
         "cmd_data_port"  : 56000,
         "push_msg_port"  : 0,
         "point_data_port": 57000,
@@ -262,8 +262,8 @@ Here is a full sample including multi-lidar types configurations and some OPTION
     },
     "host_net_info" : [
       {
-        "lidar_ip"       : ["192.168.1.10","192.168.1.11","192.168.1.12", "192.168.1.13"],
-        "host_ip"        : "192.168.1.5",
+        "lidar_ip"       : ["192.168.1.102","192.168.1.11","192.168.1.12", "192.168.1.13"],
+        "host_ip"        : "192.158.1.8",
         "multicast_ip"   : "224.1.1.5",
         "cmd_data_port"  : 56000,
         "push_msg_port"  : 0,
@@ -284,7 +284,7 @@ Here is a full sample including multi-lidar types configurations and some OPTION
     "host_net_info" : [
       {
         "lidar_ip"       : ["192.168.1.3"],
-        "host_ip"        : "192.168.1.5",
+        "host_ip"        : "192.158.1.8",
         "multicast_ip"   : "224.1.1.5",
         "cmd_data_port"  : 56101,
         "push_msg_port"  : 56201,
